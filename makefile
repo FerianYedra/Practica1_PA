@@ -1,4 +1,4 @@
-#Archivo makefile para compilar todos los archivos (2)
+#Archivo makefile para compilar todos los archivos en un ejecutable (2)
 
 #Obtener el ejecutable calcula.exe
 calcula.exe: calcula.o binario.o

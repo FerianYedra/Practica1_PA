@@ -1,8 +1,12 @@
 /**
 * @file binario.c
-* @brief Este programa tiene como función convertir un  número binario a decimal
-* @author 
-* @date 
+* @brief Este programa tiene como función convertir un  número binario a decimal.
+*
+* @author Nancy Melina Rodríguez y Fernando Ian Yedra
+* @date 01/30/2021
+* @param int op1	Es el número de bits que ocupa el número en la memotia
+* @param char *numBin   Es el número en binario en formato string que se va a convertir
+* @return int dec 	Es el número en decimal convertido del binario
 */
 
 #include "calcula.h"
@@ -28,7 +32,7 @@ dec= dec + 0;
  else if(numBin[i]>'1')
 {
         printf("\nEl numero binario no es correcto\n");
-        exit(0);
+        return (1);
       }
  pos--;
  }

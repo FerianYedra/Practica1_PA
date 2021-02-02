@@ -1,11 +1,12 @@
 /**
  * @file calcula.h
- * @brief
- * @author
+ * @brief Archivo de cabecera para los códigos
+ * @author Nancy Melina Rodríguez y Fernando Ian Yedra
  * @date 31/01/2020
  */
 
 #include <stdio.h>
 #include <math.h>
+#include <string.h>
 
-//Incluir el prototipo de a función
+int binario(int op1, char *numBin);
