@@ -7,9 +7,13 @@
 
 #include "calcula.h"
 
+extern int binario(int op1, char *numBin);
+
 int main(int argc, char *argv[]){
 	int op1, op2;
-	float res;
+	float res,dec;
+	op1=strlen(argv[1]);
+	dec=binario(op1,argv[1]);
 
 	sscanf(argv[1], "%i", &op1);
 	sscanf(argv[3], "%i", &op2);
