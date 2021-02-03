@@ -15,8 +15,6 @@
 
 #include "calcula.h"
 
-extern int binario(int op1, char *numBin);
-
 int main(int argc, char *argv[]){
 	int op1, op2, dec;
 	float res;
